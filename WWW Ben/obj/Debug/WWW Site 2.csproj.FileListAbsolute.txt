@@ -1,0 +1,5 @@
+C:\VSWorkSpaces\Micajah.Backoffice\WWW Site 2\bin\WWW Site 2.dll
+C:\VSWorkSpaces\Micajah.Backoffice\WWW Site 2\bin\WWW Site 2.pdb
+C:\VSWorkSpaces\Micajah.Backoffice\WWW Site 2\obj\Debug\ResolveAssemblyReference.cache
+C:\VSWorkSpaces\Micajah.Backoffice\WWW Site 2\obj\Debug\WWW Site 2.dll
+C:\VSWorkSpaces\Micajah.Backoffice\WWW Site 2\obj\Debug\WWW Site 2.pdb

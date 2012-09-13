@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--To enable links only on beta BetaOnly="True"-->
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/default.aspx" title="Home"  titleHeader="Offshore ASP.NET Software Development" description="Test Description" keywords="Test Keywords">
+
+    <siteMapNode url="~/why/default.aspx" title="About" titleHeader="Why Choose Us" descriptiion="">
+      <siteMapNode url="~/why/tools.aspx" title="Tools." titleHeader="Tools" description=""></siteMapNode>
+      <siteMapNode url="~/why/differentiators.aspx" title="Diffs." description=""></siteMapNode>
+      <siteMapNode url="~/why/load_of_crap.aspx" title="Crap." description=""></siteMapNode>
+      <siteMapNode url="~/why/strengths.aspx" title="Strength." description=""></siteMapNode>
+      <siteMapNode url="~/why/specialized.aspx" title="Specialize." description=""></siteMapNode>
+      <siteMapNode url="~/why/everyone.aspx" title="Everyone else." description=""></siteMapNode>
+      <siteMapNode url="~/why/risk_mitigation.aspx" title="Risk mitigation." description=""></siteMapNode>
+		  <siteMapNode url="~/why/costs.aspx" title="Costs." titleHeader="Costs." description=""></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="~/services/default.aspx" title="Services" titleHeader="Services" description="" DisableRightBar="True" >
+      <siteMapNode url="~/services/soft/software.aspx" title=".NET Software Development" description=""></siteMapNode>
+      <siteMapNode url="~/services/data/data_center.aspx" title="Data Center Management" description=""></siteMapNode>
+    </siteMapNode>
+
+    <siteMapNode url="~/work/default.aspx" title="Our Work" titleHeader="Our Work"  description="" DisableRightBar="True" BetaOnly="True">
+      <siteMapNode url="~/work/Detail.aspx" title="Work detail"  description="" />
+    </siteMapNode>
+
+
+    <siteMapNode url="~/misc/default.aspx" title="Toolbox" titleHeader="Tools"  description="" BetaOnly="False" DisableRightBar="True">
+      
+    </siteMapNode>
+
+    <!--
+    <siteMapNode url="~/company/default.aspx" title="Company"  description="">
+      <siteMapNode url="~/company/About.aspx" title="About"  description="" />
+    </siteMapNode>
+    -->
+
+  </siteMapNode>
+</siteMap>

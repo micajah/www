@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FF27483-CDD1-4EE9-B327-AD8C39DAEB8C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>web.micajah.www</RootNamespace>
+    <AssemblyName>web.micajah.www</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Extensions.Design" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="newWebsite\about.aspx" />
+    <Content Include="newWebsite\contact.aspx" />
+    <Content Include="newWebsite\css\960.css" />
+    <Content Include="newWebsite\css\reset.css" />
+    <Content Include="newWebsite\css\style.css" />
+    <Content Include="newWebsite\css\text.css" />
+    <Content Include="newWebsite\default.aspx" />
+    <Content Include="newWebsite\img\footer-back.png" />
+    <Content Include="newWebsite\img\logo3.png" />
+    <Content Include="newWebsite\img\portfolio\helpdesk\hd1.png" />
+    <Content Include="newWebsite\img\portfolio\helpdesk\hd2.png" />
+    <Content Include="newWebsite\img\portfolio\helpdesk\hd3.png" />
+    <Content Include="newWebsite\img\portfolio\helpdesk\hd4.png" />
+    <Content Include="newWebsite\img\portfolio\helpdesk\helpdesk-large.png" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus 1.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus 2.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus 3.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus 4.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus 5.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus 6.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus 7.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus 8.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus1-large.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus1-small.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus2-large.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus3-large.jpg" />
+    <Content Include="newWebsite\img\portfolio\sanus\Sanus4-large.jpg" />
+    <Content Include="newWebsite\img\sample1.png" />
+    <Content Include="newWebsite\img\shadowing.png" />
+    <Content Include="newWebsite\Portfolio\helpdesk.aspx" />
+    <Content Include="newWebsite\Portfolio\sanus.aspx" />
+    <Content Include="newWebsite\services.aspx" />
+    <Content Include="newWebsite\specialized.aspx" />
+    <Content Include="newWebsite\toolbox.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\MetaTag.cs" />
+    <Compile Include="App_Code\SiteMap.cs" />
+    <Content Include="temp\linkedin\bg_nav_primary_left.gif" />
+    <Content Include="temp\linkedin\bg_nav_primary_right.gif" />
+    <Content Include="temp\rikcat\recentlist_rightbar.txt" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow.htm" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow_files\effects.js" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow_files\factory.gif" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow_files\ga_external-links.js" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow_files\gears.gif" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow_files\lightbox.css" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow_files\lightbox.js" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow_files\prototype.js" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow_files\scriptaculous.js" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow_files\style.css" />
+    <Content Include="temp\rikcat\Rikcat Industries  The Portfolio of Rik Catlow_files\urchin.js" />
+    <Content Include="temp\stylegala\css4.css" />
+    <Compile Include="company\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="company\contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company\contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="company\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="company\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Contact.ascx.cs">
+      <DependentUpon>Contact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\Contact.ascx.designer.cs">
+      <DependentUpon>Contact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GetStarted.ascx.cs">
+      <DependentUpon>GetStarted.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\GetStarted.ascx.designer.cs">
+      <DependentUpon>GetStarted.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LeftMenu.ascx.cs">
+      <DependentUpon>LeftMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LeftMenu.ascx.designer.cs">
+      <DependentUpon>LeftMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.master.designer.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="misc\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="misc\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newWebsite\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newWebsite\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newWebsite\contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newWebsite\contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newWebsite\default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newWebsite\default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newWebsite\newSite.Master.cs">
+      <DependentUpon>newSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newWebsite\newSite.Master.designer.cs">
+      <DependentUpon>newSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="newWebsite\Portfolio\helpdesk.aspx.cs">
+      <DependentUpon>helpdesk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newWebsite\Portfolio\helpdesk.aspx.designer.cs">
+      <DependentUpon>helpdesk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newWebsite\Portfolio\sanus.aspx.cs">
+      <DependentUpon>sanus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newWebsite\Portfolio\sanus.aspx.designer.cs">
+      <DependentUpon>sanus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newWebsite\services.aspx.cs">
+      <DependentUpon>services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newWebsite\services.aspx.designer.cs">
+      <DependentUpon>services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newWebsite\specialized.aspx.cs">
+      <DependentUpon>specialized.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newWebsite\specialized.aspx.designer.cs">
+      <DependentUpon>specialized.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newWebsite\toolbox.aspx.cs">
+      <DependentUpon>toolbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newWebsite\toolbox.aspx.designer.cs">
+      <DependentUpon>toolbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BackOfficePortfolio\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="services\data\data_center.aspx.cs">
+      <DependentUpon>data_center.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\data\data_center.aspx.designer.cs">
+      <DependentUpon>data_center.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\soft\software.aspx.cs">
+      <DependentUpon>software.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\soft\software.aspx.designer.cs">
+      <DependentUpon>software.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\soft\software_1.aspx.cs">
+      <DependentUpon>software_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\soft\software_1.aspx.designer.cs">
+      <DependentUpon>software_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\soft\software_2.aspx.cs">
+      <DependentUpon>software_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\soft\software_2.aspx.designer.cs">
+      <DependentUpon>software_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\soft\software_3.aspx.cs">
+      <DependentUpon>software_3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\soft\software_3.aspx.designer.cs">
+      <DependentUpon>software_3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\soft\software_3_sub1.aspx.cs">
+      <DependentUpon>software_3_sub1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\soft\software_3_sub1.aspx.designer.cs">
+      <DependentUpon>software_3_sub1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="services\soft\software_4.aspx.cs">
+      <DependentUpon>software_4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="services\soft\software_4.aspx.designer.cs">
+      <DependentUpon>software_4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="temp\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="temp\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="why\costs.aspx.cs">
+      <DependentUpon>costs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="why\costs.aspx.designer.cs">
+      <DependentUpon>costs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="why\risk_mitigation.aspx.cs">
+      <DependentUpon>risk_mitigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="why\risk_mitigation.aspx.designer.cs">
+      <DependentUpon>risk_mitigation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="why\load_of_crap.aspx.cs">
+      <DependentUpon>load_of_crap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="why\load_of_crap.aspx.designer.cs">
+      <DependentUpon>load_of_crap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="temp\ParentHint.aspx.cs">
+      <DependentUpon>ParentHint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="temp\ParentHint.aspx.designer.cs">
+      <DependentUpon>ParentHint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="why\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="why\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="why\differentiators.aspx.cs">
+      <DependentUpon>differentiators.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="why\differentiators.aspx.designer.cs">
+      <DependentUpon>differentiators.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="why\everyone.aspx.cs">
+      <DependentUpon>everyone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="why\everyone.aspx.designer.cs">
+      <DependentUpon>everyone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="why\tools.aspx.cs">
+      <DependentUpon>tools.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="why\tools.aspx.designer.cs">
+      <DependentUpon>tools.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="why\specialized.aspx.cs">
+      <DependentUpon>specialized.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="why\specialized.aspx.designer.cs">
+      <DependentUpon>specialized.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="why\strengths.aspx.cs">
+      <DependentUpon>strengths.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="why\strengths.aspx.designer.cs">
+      <DependentUpon>strengths.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="work\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="work\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="work\Detail.aspx.cs">
+      <DependentUpon>Detail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="work\Detail.aspx.designer.cs">
+      <DependentUpon>Detail.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="company\about.aspx" />
+    <Content Include="company\contact.aspx" />
+    <Content Include="company\Default.aspx" />
+    <Content Include="Controls\Contact.ascx" />
+    <Content Include="Controls\GetStarted.ascx" />
+    <Content Include="Controls\LeftMenu.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="services\data\data_center.aspx" />
+    <Content Include="services\Default.aspx" />
+    <Content Include="services\soft\software.aspx" />
+    <Content Include="services\soft\software_1.aspx" />
+    <Content Include="services\soft\software_2.aspx" />
+    <Content Include="services\soft\software_3.aspx" />
+    <Content Include="services\soft\software_4.aspx" />
+    <Content Include="temp\Default.aspx" />
+    <Content Include="temp\ParentHint.aspx" />
+    <Content Include="why\Default.aspx" />
+    <Content Include="why\differentiators.aspx" />
+    <Content Include="why\everyone.aspx" />
+    <Content Include="why\tools.aspx" />
+    <Content Include="why\specialized.aspx" />
+    <Content Include="why\strengths.aspx" />
+    <Content Include="work\Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage.master" />
+    <Content Include="Micajah-Logo.gif" />
+    <None Include="Micajah Logo.psd" />
+    <Content Include="newWebsite\newSite.Master" />
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <Content Include="misc\Default.aspx" />
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Service References\BackOfficePortfolio\portfolio.disco" />
+    <None Include="Service References\BackOfficePortfolio\configuration91.svcinfo" />
+    <None Include="Service References\BackOfficePortfolio\configuration.svcinfo" />
+    <None Include="Service References\BackOfficePortfolio\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="services\soft\software_3_sub1.aspx" />
+    <Content Include="why\costs.aspx" />
+    <Content Include="why\risk_mitigation.aspx" />
+    <Content Include="why\load_of_crap.aspx" />
+    <Content Include="work\blank_370_250.png" />
+    <Content Include="work\Detail.aspx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\BackOfficePortfolio\portfolio.wsdl" />
+    <None Include="Service References\BackOfficePortfolio\portfolio.xsd" />
+    <None Include="Service References\BackOfficePortfolio\portfolio1.xsd" />
+    <None Include="Service References\BackOfficePortfolio\portfolio2.xsd" />
+    <None Include="Service References\BackOfficePortfolio\portfolio3.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\BackOfficePortfolio\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="newWebsite\js\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

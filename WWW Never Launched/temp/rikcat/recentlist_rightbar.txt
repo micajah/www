@@ -1,0 +1,23 @@
+﻿example from left bar recent list
+
+<H2>Recent Posts</H2>
+    <UL class=recentlist>
+      <LI>11.30 &nbsp;<A 
+      title="Permanent Link to BM: Email Standards, Coding, &amp; the NFL Network" 
+      href="http://www.rikcatindustries.com/2007/11/30/email-standards-coding-the-nfl-network/" 
+      rel=bookmark>BM: Email Standards, Coding, &amp; the… </A>
+      <LI>11.06 &nbsp;<A title="Permanent Link to Open Social and Branding" 
+      href="http://www.rikcatindustries.com/2007/11/06/open-social-and-branding/" 
+      rel=bookmark>Open Social and Branding </A>
+      <LI>11.01 &nbsp;<A title="Permanent Link to XHTML Coding Services" 
+      href="http://www.rikcatindustries.com/2007/11/01/xhtml-coding-services/" 
+      rel=bookmark>XHTML Coding Services </A>
+      <LI>10.30 &nbsp;<A title="Permanent Link to The Importance of Metadata" 
+      href="http://www.rikcatindustries.com/2007/10/30/the-importance-of-metadata/" 
+      rel=bookmark>The Importance of Metadata </A>
+      <LI>10.16 &nbsp;<A 
+      title="Permanent Link to 5 Ways to Make a User Interface Intuitive" 
+      href="http://www.rikcatindustries.com/2007/10/16/5-ways-to-make-a-user-interface-intuitive/" 
+      rel=bookmark>5 Ways to Make a User Interface… </A></LI></UL><BR><A 
+    class=blk_button href="http://www.rikcatindustries.com/blog/">More Recent Posts 
+    →</A> <BR><BR><BR><BR>

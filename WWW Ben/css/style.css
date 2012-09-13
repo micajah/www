@@ -1,0 +1,233 @@
+/* CSS Document */
+
+body {
+    background-color: #FCFCFC;
+    border-top: 4px solid #000000;
+    color: #2B2B2B;
+    padding: 0;
+	margin: 0;    
+	font-family: arial,"helvetica neue",helvetica,sans-serif;
+    font-size: 14px;
+}
+
+h2 {color: #AD141E;}
+
+.hire-us h2 {color: #ffffff;}
+.home-descr h2 {color: #000;}
+
+a {
+	color: #2B2B2B;
+	text-decoration: none;
+	}
+a:hover {
+	border-bottom: 1px solid #2B2B2B;
+	}
+p {
+    font: 16px/28px Georgia;
+}
+
+/*--- header ---*/
+.header{
+	padding: 40px 0;
+	border-bottom: 1px solid #cccccc;
+	}
+	
+	.header .logo img {
+		float: left;
+		}
+	.header .top-menu {font: 18px arial;}
+	.header .top-menu ul {
+		float: right;
+		margin: 15px 0 0;
+		}
+	.header .top-menu ul li {
+		display: inline;
+		} 
+
+
+/*-- Main --*/
+
+.main-wrap {
+	border-bottom: 1px solid #666;
+	width: 100%;
+	}
+
+.main {
+	background: url(../img/shadowing.png) top center no-repeat;
+	min-height: 100px;
+	padding: 20px 0;
+	}
+	
+	.main .headline {
+		font-family: Tahoma, Geneva, sans-serif;
+		text-align: center;
+		}
+	.main .headline h1 {
+		font-size: 4em;
+		margin: 30px 0;
+		}
+.sub-main {
+	min-height: 100px;
+	padding: 20px 0;
+	margin-bottom: 50px;
+	}
+	.sub-main .portfolio {
+		min-height: 150px;
+		border: 1px solid #CCC;
+		padding: 4px;
+		margin-top: 25px;
+		background-color: #F5F5F5;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px; 		
+		}
+		.sub-main .portfolio:hover 
+		{
+		    background-color: #F5F5F5;
+            -webkit-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+            -moz-box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+            box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, .1);
+		    }
+	.sub-main .home-descr {
+		margin-top: 50px;
+		margin-bottom: 30px;
+		}
+	.sub-main .home-descr h2 {
+		margin:0;
+		font-weight: normal;
+		}
+	.contact-us 
+	{
+	    font-size: 24px;
+	    padding: 8px 20px;
+	    color: #fff;
+		background: none repeat scroll 0 0 #AD141E;
+	    border: 1px solid #52090E;
+		-webkit-border-radius: 3px;
+ 		-moz-border-radius: 3px;
+	    border-radius: 3px 3px 3px 3px;
+		-webkit-box-shadow: inset 0px 1px 0px #E93E49;
+ 		-moz-box-shadow: inset 0px 1px 0px #E93E49;
+ 		box-shadow: inset 0px 1px 0px #E93E49;
+	    }
+	    .contact-us:hover 
+	    {
+	        background: #C41722;
+	        }
+	.section 
+{
+    margin-bottom: 20px;
+    padding: 5px 20px 5px 5px;
+    }
+    .section:hover 
+    {
+        background-color: #FFF7C0;
+        }
+.sidebar-label 
+{
+    font-size: 14px;
+    }
+    .sidebar p 
+    {
+        font-weight: bold;
+        } 
+label 
+{
+    font-size: 16px;
+    }
+input[type=text],
+textarea,
+select 
+{
+    width: 100%;
+    font-size: 16px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    }
+	.hire-us {
+		color: #fff;
+		background: none repeat scroll 0 0 #AD141E;
+	    border: 1px solid #52090E;
+		-webkit-border-radius: 3px;
+ 		-moz-border-radius: 3px;
+	    border-radius: 3px 3px 3px 3px;
+		-webkit-box-shadow: inset 0px 1px 0px #E93E49;
+ 		-moz-box-shadow: inset 0px 1px 0px #E93E49;
+ 		box-shadow: inset 0px 1px 0px #E93E49; 
+		}
+		.hire-us a 
+		{
+		    color: #ffffff; 
+		    }
+		.hire-us:hover 
+		{
+		    background: #C41722;
+		    }
+		.hire-us h2 {
+			margin: 20px 0 20px 20px;
+			font-weight: normal;
+			}
+		.contact-button h2
+		{
+		    margin: 20px 20px 20px 0;
+		    float: right;
+		    }
+	.sub-main .content 
+	{
+	    margin-bottom: 50px;
+	    }
+	    .sub-main .content a 
+	    {
+	        font-weight: bold;
+	        }
+
+.toolbox {margin-bottom: 50px;}
+.toolbox h2 
+{
+    margin: 0;
+    }	
+    .toolbox a 
+    {
+        font-weight: bold;
+        }
+	
+/* -- Portfolio -- */
+.portfolio-single 
+{
+    margin-bottom: 40px;
+    }
+
+.portfolio-single img 
+{
+    border: 1px solid #CCC;
+    padding: 5px;
+    margin-bottom: 30px;
+    background-color: #F5F5F5;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px; 
+    }
+.portfolio-single .description 
+{
+    padding-left: 15px;
+    }
+
+/* -- Footer --*/
+
+.footer-wrap {
+	background: #333 url(../img/footer-back.png) center top no-repeat;
+
+	border-top: 1px solid #999;
+	color: #CCC;
+	min-height: 100px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	}
+.footer-center 
+{
+    text-align: center;
+    margin-top: 20px;
+    }

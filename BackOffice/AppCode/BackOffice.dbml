@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BackOffice_Master_Client" Class="BackOfficeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(local);Initial Catalog=BackOffice_Master_Client;Persist Security Info=True;User ID=BackOffice" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BackOfficeConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.BackOffice_Portfolio" Member="BackOffice_Portfolios">
+    <Type Name="BackOffice_Portfolio">
+      <Column Name="PortfolioGuid" AutoSync="Never" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="AccountGuid" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="PortfolioName" Type="System.String" DbType="NVarChar(75) NOT NULL" CanBeNull="false" />
+      <Column Name="Overview" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Technologies" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Text" Type="System.String" DbType="Text" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Partners" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="PortfolioOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="BackOffice_Account_BackOffice_Portfolio" Member="BackOffice_Account" ThisKey="AccountGuid" Type="BackOffice_Account" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.BackOffice_Account" Member="BackOffice_Accounts">
+    <Type Name="BackOffice_Account">
+      <Column Name="AccountGuid" AutoSync="Never" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" UpdateCheck="Never" />
+      <Column Name="AccountName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="URL" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Partner" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="BackOffice_Account_BackOffice_Portfolio" Member="BackOffice_Portfolios" OtherKey="AccountGuid" Type="BackOffice_Portfolio" />
+    </Type>
+  </Table>
+</Database>

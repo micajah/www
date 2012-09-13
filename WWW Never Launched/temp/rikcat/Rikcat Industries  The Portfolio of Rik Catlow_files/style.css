@@ -1,0 +1,384 @@
+BODY {
+	MARGIN: 30px 0px 0px; FONT: 13px arial
+}
+A {
+	COLOR: #000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #cc3300
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+PRE.code {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: #f9f9f9; PADDING-BOTTOM: 25px; MARGIN: 0px 0px 15px; BORDER-LEFT: #ddd 10px solid; PADDING-TOP: 15px
+}
+CODE {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+H1 A {
+	BACKGROUND: url(images/ri_logo.gif) no-repeat; FLOAT: left; MARGIN: 0px 30px 0px 0px; OVERFLOW: hidden; WIDTH: 185px; TEXT-INDENT: -9000px; HEIGHT: 45px
+}
+H1 A:hover {
+	BACKGROUND: url(images/ri_logo.gif) no-repeat 0px -45px
+}
+H2 {
+	MARGIN: 0px 0px 30px; FONT: 18px arial
+}
+P {
+	FONT: 13px/20px arial
+}
+#page {
+	MARGIN: 0px auto; WIDTH: 920px
+}
+#header {
+	MARGIN: 0px 0px 30px
+}
+#logo {
+	FLOAT: left
+}
+#blurb {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px dotted; PADDING-LEFT: 0px; PADDING-BOTTOM: 40px; FONT: 41px/41px georgia; PADDING-TOP: 35px; BORDER-BOTTOM: #ccc 1px dotted
+}
+.navigation {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 28px 0px 0px; FONT: 18px arial; COLOR: #666; PADDING-TOP: 0px
+}
+.navigation LI {
+	DISPLAY: inline
+}
+.navigation LI A {
+	COLOR: #666; TEXT-DECORATION: none
+}
+.navigation LI A.selected {
+	COLOR: #000; BORDER-BOTTOM: #ccc 1px dotted
+}
+.navigation LI A:hover {
+	COLOR: #cc3300
+}
+#sidebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 40px; FLOAT: left; PADDING-BOTTOM: 30px; WIDTH: 259px; PADDING-TOP: 40px
+}
+#sidebar H2 {
+	MARGIN: 0px 0px 4px
+}
+#sidebar FORM {
+	MARGIN: 0px 0px 40px
+}
+#sidebar .postmetadata {
+	FONT: 11px arial
+}
+#sidemessage {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 40px; PADDING-TOP: 0px
+}
+.sidelist {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px dotted; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 40px; PADDING-TOP: 0px
+}
+.sidelist LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 12px arial; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.sidelist LI A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; COLOR: #000; PADDING-TOP: 6px; BORDER-BOTTOM: #ccc 1px dotted
+}
+.sidelist LI A:hover {
+	BACKGROUND: #f9f9f9; COLOR: #c30
+}
+#content {
+	BORDER-RIGHT: #ccc 1px dotted; PADDING-RIGHT: 40px; PADDING-LEFT: 0px; MIN-HEIGHT: 400px; FLOAT: left; PADDING-BOTTOM: 30px; WIDTH: 580px; PADDING-TOP: 0px
+}
+#content H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 40px 0px 13px; FONT: 24px georgia; PADDING-TOP: 0px
+}
+#content H2 A {
+	COLOR: #c30
+}
+#content H2 A:hover {
+	COLOR: #000
+}
+#content .post {
+	MARGIN: 0px 0px 40px
+}
+.left_image {
+	FLOAT: left; MARGIN: 8px 17px 2px 0px
+}
+.right_image {
+	FLOAT: right; MARGIN: 8px 0px 2px 17px
+}
+.postmetadata {
+	PADDING-RIGHT: 10px; BORDER-TOP: #ddd 1px dotted; PADDING-LEFT: 10px; BACKGROUND: #f9f9f9; PADDING-BOTTOM: 4px; MARGIN: 8px 0px 13px; BORDER-LEFT: #ddd 10px solid; COLOR: #666; PADDING-TOP: 4px
+}
+.postmetadata A {
+	COLOR: #666
+}
+.postmetadata A:hover {
+	COLOR: #000
+}
+.cal_icon {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 19px; BACKGROUND: url(images/meta_icons/cal_icon.gif) no-repeat; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.cat_icon {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 19px; BACKGROUND: url(images/meta_icons/cat_icon.gif) no-repeat; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.at_icon {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 19px; BACKGROUND: url(images/meta_icons/addthis_icon.gif) no-repeat 0px 1px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.com_icon {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 19px; BACKGROUND: url(images/meta_icons/com_icon.gif) no-repeat; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.edit_icon {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 19px; BACKGROUND: url(images/meta_icons/edit_icon.gif) no-repeat; PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.entry A {
+	FONT-WEIGHT: bold
+}
+.entry A[target='_blank'] {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 0px; BACKGROUND: url(images/exlink.gif) no-repeat 100% 3px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.entry H3 {
+	MARGIN: 25px 0px 10px; FONT: italic 16px georgia; COLOR: #666
+}
+.entry UL {
+	MARGIN: 30px 0px
+}
+.entry LI {
+	MARGIN: 0px 0px 10px
+}
+.entry P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 20px; PADDING-TOP: 0px
+}
+#archive {
+	MARGIN: 40px 0px
+}
+SPAN.pagetitle {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #000; PADDING-BOTTOM: 5px; FONT: 11px/11px arial; COLOR: #fff; PADDING-TOP: 5px
+}
+.pagination {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px dotted; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 40px 0px 20px; WIDTH: 100%; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px dotted
+}
+.pagination A {
+	FONT-WEIGHT: normal
+}
+.paging A {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #000; PADDING-BOTTOM: 5px; FONT: 12px/12px arial; COLOR: #fff; PADDING-TOP: 5px
+}
+.paging {
+	MARGIN: 10px 0px 0px
+}
+.paging A:hover {
+	BACKGROUND: #c30; COLOR: #fff
+}
+.alignleft {
+	FLOAT: left
+}
+.alignright {
+	FLOAT: right
+}
+A.blk_button {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: #000; PADDING-BOTTOM: 5px; FONT: 12px/12px arial; COLOR: #fff; PADDING-TOP: 5px
+}
+A.blk_button:hover {
+	BACKGROUND: #c30; COLOR: #fff
+}
+A.more-link {
+	PADDING-RIGHT: 19px; PADDING-LEFT: 0px; BACKGROUND: url(images/ri_dot.gif) no-repeat 100% 96%; PADDING-BOTTOM: 0px; WIDTH: 16px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 16px; BORDER-BOTTOM-STYLE: none
+}
+A.more-link:hover {
+	BACKGROUND: url(images/ri_dot.gif) no-repeat 100% 0px
+}
+.editlink {
+	MARGIN: 50px 0px 0px
+}
+.editlink A {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 9px; BACKGROUND: #000; PADDING-BOTTOM: 4px; FONT: 12px arial; COLOR: #fff; PADDING-TOP: 4px
+}
+#query {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; FONT: 12px arial; BORDER-LEFT: #ccc 1px solid; WIDTH: 215px; COLOR: #666; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid
+}
+INPUT {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+LABEL {
+	COLOR: #999
+}
+#searchsubmit {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #000; PADDING-BOTTOM: 3px; FONT: 12px arial; COLOR: #fff; BORDER-TOP-STYLE: none; PADDING-TOP: 3px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#searchsubmit:hover {
+	BACKGROUND: #c30
+}
+#submit {
+	PADDING-RIGHT: 14px; PADDING-LEFT: 14px; BACKGROUND: #000; PADDING-BOTTOM: 5px; FONT: 14px/14px arial; COLOR: #fff; BORDER-TOP-STYLE: none; PADDING-TOP: 5px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#submit:hover {
+	BACKGROUND: #c30
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px dotted; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; MARGIN: 0px 0px 30px; FONT: 12px arial; COLOR: #000; PADDING-TOP: 20px
+}
+#footer A {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+#footer A:hover {
+	COLOR: #c30
+}
+A.feed {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 21px; BACKGROUND: url(images/feedicon.gif) no-repeat 0px 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 1px; HEIGHT: 16px
+}
+A.feed:hover {
+	BACKGROUND: url(images/feedicon.gif) no-repeat
+}
+A.dellink {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 21px; BACKGROUND: url(images/delicon.gif) no-repeat 0px 100%; PADDING-BOTTOM: 0px; PADDING-TOP: 1px; HEIGHT: 16px
+}
+A.dellink:hover {
+	BACKGROUND: url(images/delicon.gif) no-repeat
+}
+.recentlist {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px dotted; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.recentlist LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; FONT: 12px arial; COLOR: #666; PADDING-TOP: 6px; BORDER-BOTTOM: #ccc 1px dotted; LIST-STYLE-TYPE: none
+}
+.recentlist LI:hover {
+	BACKGROUND: #f9f9f9
+}
+#side_archive {
+	MARGIN: 0px 0px 50px
+}
+#comments {
+	MARGIN: 20px 0px 40px
+}
+.commentlist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 20px; PADDING-TOP: 0px
+}
+.commentlist LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN: 0px; BORDER-LEFT: #000 10px solid; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.commentlist LI.author {
+	BORDER-LEFT: #c30 10px solid
+}
+.commentlist LI.author H3.comment_hdr {
+	BACKGROUND: #c30
+}
+.commentlist P {
+	MARGIN: 18px 35px; FONT: 13px/19px arial
+}
+.commentlist P A {
+	FONT-WEIGHT: bold
+}
+H3.comment_hdr {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BACKGROUND: #000; PADDING-BOTTOM: 6px; MARGIN: 0px; FONT: 12px arial; COLOR: #fff; PADDING-TOP: 6px
+}
+H3.comment_hdr A {
+	COLOR: #fff
+}
+H3.comment_hdr A:hover {
+	TEXT-DECORATION: underline
+}
+#comment_txt {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; FONT: 14px arial; WIDTH: 569px; PADDING-TOP: 5px
+}
+#resume {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 30px
+}
+#resume H3 {
+	MARGIN: 35px 0px 3px; FONT: italic 16px georgia; COLOR: #666
+}
+#resume H3.first {
+	MARGIN: 0px 0px 20px
+}
+.job {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 15px; PADDING-BOTTOM: 15px; MARGIN: 0px 0px 20px; BORDER-LEFT: #ddd 10px solid; PADDING-TOP: 0px; BORDER-BOTTOM: #ddd 1px dotted
+}
+#resume UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#resume LI {
+	MARGIN: 0px 0px 3px; LIST-STYLE-TYPE: none
+}
+.job_details LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 0px; BORDER-BOTTOM: #ddd 1px dotted
+}
+#resume .recent_urls {
+	MARGIN: 15px 0px 0px 10px
+}
+#resume .recent_urls SPAN {
+	COLOR: #888
+}
+#work {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MIN-HEIGHT: 400px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+.worklist {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.worklist LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 15px; MARGIN: 0px 0px 5px; COLOR: #000; PADDING-TOP: 13px; BORDER-BOTTOM: #ddd 1px dotted; LIST-STYLE-TYPE: none
+}
+.sm_work_img {
+	FLOAT: left; MARGIN: 0px 25px 0px 0px
+}
+.work_description {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px 30px 0px 0px; WIDTH: 360px; PADDING-TOP: 15px
+}
+.work_description H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 15px; FONT: 24px/16px georgia; PADDING-TOP: 0px
+}
+.work_description P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 12px/14px arial; PADDING-TOP: 0px
+}
+.work_buttons {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 170px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+.work_buttons UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 20px 0px 0px; PADDING-TOP: 0px
+}
+.work_buttons LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.work_buttons LI A {
+	BORDER-RIGHT: #ddd 1px dotted; PADDING-RIGHT: 5px; BORDER-TOP: #ddd 1px dotted; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 4px; MARGIN: 0px 0px 4px; FONT: 12px/12px arial; BORDER-LEFT: #ddd 1px dotted; PADDING-TOP: 4px; BORDER-BOTTOM: #ddd 1px dotted; TEXT-ALIGN: right
+}
+.work_buttons A:hover {
+	BACKGROUND: #f9f9f9
+}
+#footer .stats {
+	FONT: 12px arial; COLOR: #666
+}
+#footer A.statslink {
+	FONT: 12px arial; COLOR: #666
+}
+#footer A.statslink:hover {
+	TEXT-DECORATION: underline
+}
+#sponsor_block {
+	MARGIN: 60px 0px 0px
+}
+#sponsor_block LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 8px
+}
+#sponsor_block LI IMG {
+	FLOAT: left; MARGIN: 0px 10px 0px 0px
+}
+#sponsor_block LI .textbox {
+	HEIGHT: 62px; TEXT-ALIGN: center
+}
+.advertise {
+	FLOAT: right; MARGIN: 4px 0px 0px; FONT: 10px arial; COLOR: #666
+}
+#tags {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; BACKGROUND: #fcfae9; PADDING-BOTTOM: 4px; MARGIN: 40px 0px 0px; PADDING-TOP: 4px
+}
+#tags P {
+	MARGIN: 0px
+}
+#tags A {
+	COLOR: #c30
+}
+#tags A:hover {
+	COLOR: #000
+}

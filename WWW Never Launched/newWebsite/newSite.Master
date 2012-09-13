@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="newSite.master.cs" Inherits="web.micajah.www.newWebsite.newSite" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Micajah - .net Developers</title>
+
+<link rel="stylesheet" type="text/css" href="css/960.css" />
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/text.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div class="container_12 header">
+      <div class="grid_5 alpha logo">
+  	    <a href="../../newWebsite/default.aspx"><img src="../../newWebsite/img/logo3.png" alt="Micajah" /></a>
+      </div>
+      <div class="grid_7 omega top-menu">
+  	    <ul>
+  		    <li><a href="../../newWebsite/about.aspx">About Us</a></li>
+            <li><a href="../../newWebsite/services.aspx">Services</a></li>
+            <li><a href="../../newWebsite/toolbox.aspx">Toolbox</a></li>
+  		    <li><a href="../../newWebsite/contact.aspx">Contact Us</a></li>
+  	    </ul>
+      </div>
+    </div> <!-- End Header -->
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <div class="footer-wrap">
+	    <div class="container_12 footer">
+	        <div class="footer-center">sales@micajah.com | 1447 Peachtree St Ste 880 Atlanta, Georgia 30309</div>
+	    </div>
+    </div>
+    </form>
+</body>
+</html>

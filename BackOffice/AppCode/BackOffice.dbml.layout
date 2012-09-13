@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BackOffice">
+  <DataContextMoniker Name="/BackOfficeDataContext" />
+  <nestedChildShapes>
+    <classShape Id="d6953ec3-dfc9-48de-bc77-bbdf4f4b27c0" absoluteBounds="5.625, 1.125, 2, 2.5401025390625">
+      <DataClassMoniker Name="/BackOfficeDataContext/BackOffice_Portfolio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f3db6a14-dbfc-4dc5-b39b-ceedf02112af" absoluteBounds="5.64, 1.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="818a3ef0-6e36-41ec-b2f4-fe4a36f463d8" absoluteBounds="3, 2.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BackOfficeDataContext/BackOffice_Account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="17f83b4b-bbbd-49f6-9a6c-418649ceee24" absoluteBounds="3.015, 2.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5 : 2.95755126953125); (5.625 : 2.95755126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BackOfficeDataContext/BackOffice_Account/BackOffice_Account_BackOffice_Portfolio" />
+      <nodes>
+        <classShapeMoniker Id="818a3ef0-6e36-41ec-b2f4-fe4a36f463d8" />
+        <classShapeMoniker Id="d6953ec3-dfc9-48de-bc77-bbdf4f4b27c0" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

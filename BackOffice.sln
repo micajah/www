@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice", "BackOffice\BackOffice.csproj", "{37F96264-F2CA-4199-B453-1253A505B38A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WWW Site", "WWW Never Launched\WWW Site.csproj", "{5FF27483-CDD1-4EE9-B327-AD8C39DAEB8C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37F96264-F2CA-4199-B453-1253A505B38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F96264-F2CA-4199-B453-1253A505B38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F96264-F2CA-4199-B453-1253A505B38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F96264-F2CA-4199-B453-1253A505B38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FF27483-CDD1-4EE9-B327-AD8C39DAEB8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FF27483-CDD1-4EE9-B327-AD8C39DAEB8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FF27483-CDD1-4EE9-B327-AD8C39DAEB8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FF27483-CDD1-4EE9-B327-AD8C39DAEB8C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

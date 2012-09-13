@@ -1,0 +1,166 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="web.micajah.www.MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<form id="form1" runat="server">  
+<div id="page">
+<div id="header" class="clearfix">
+    <div id="logo">
+    <img alt="Micajah Logo" src="/Micajah-Logo.gif" width="350" height="60"/>
+    </div>
+    <!-- 
+    <ul class="navigation">
+      <li><a class="selected" href="/">Home</a> </li>/ 
+      <li><a href="/about/">About</a> </li>/ 
+      <li><a href="/work/">Work</a> </li>/ 
+      <li><a href="/blog/">Blog</a> </li>
+    </ul>
+    -->
+    <asp:Literal ID="litMainMenu" runat="server"></asp:Literal>
+</div>
+
+<asp:Panel ID="BandPanel" runat="server">
+    <div id="topband">
+        <asp:ContentPlaceHolder ID="TopBand" runat="server"></asp:ContentPlaceHolder>
+    </div>
+</asp:Panel>
+
+
+<div id="content" <asp:Literal ID="ContentClass" runat="server"></asp:Literal> >  
+    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>  
+    <p>&nbsp;</p><p>&nbsp;</p>
+</div>
+
+<asp:PlaceHolder runat="server" ID="phSideBar">
+
+    <div id="sidebar" class="sidebar">
+        
+        <asp:ContentPlaceHolder ID="SideBarHolder" runat="server"></asp:ContentPlaceHolder>
+        
+    </div>
+
+</asp:PlaceHolder>
+
+</div>
+
+<%-- 
+<div id="fat-footer">
+    <div id="footercontentid">
+        
+        <div class="footercontent" >
+        Header
+        <ul>
+        <li>Link 1</li>
+        <li>Link Link Link 2</li>
+        <li>Link Link Link 2</li>
+        <li>Link Link Link 2</li>
+        <li>Link Link Link 2</li>
+        </ul>
+        </div>
+        
+        <div class="footercontent" >
+        Header
+        <ul>
+        <li>Link 1</li>
+        <li>Link Link Link 2</li>
+        <li>Link Link Link 2</li>
+        <li>Link Link Link 2</li>
+        <li>Link Link Link 2</li>
+        </ul>
+        </div>
+        
+        <div class="footercontent" >
+        Header
+        <ul>
+        <li>Link 1</li>
+        <li>Link Link Link 2</li>
+        <li>Link Link Link 2</li>
+        <li>Link Link Link 2</li>
+        <li>Link Link Link 2</li>
+        </ul>
+        </div>
+    
+    </div>
+
+
+</div>
+--%>
+<!--
+<div id="footer2">
+    <div id="footer-wrapper">
+    <div class="content">
+
+	<div class="col-3">
+		<h3>Tools</h3>
+		<ul>
+			<li><a href="http://public.micajah.com">Public Wiki</a></li>
+			<li><a href="https://login.bigwebapps.com/?DeptId=459&DeptName=Micajah+Development">HelpDesk Login</a></li>
+			<li><a href="/tour/marketing/">Marketing</a></li>
+			<li><a href="/tour/design/">Customize</a></li>
+			<li><a href="/tour/security/">Hosting &amp; Security</a></li>
+			<li><a href="/tour/appstore/">Appstore</a></li>
+			<li><a href="/tour/features/">Feature List</a></li>
+		</ul>
+	</div>
+	
+	<div class="col-3">
+		<h3>Resources</h3>
+		<ul>
+			<li><a href="http://wiki.shopify.com/">Shopify Wiki</a></li>
+			<li><a href="http://support.myshopify.com/">Technical Support</a></li>
+			<li><a href="http://forums.shopify.com/forums/1">Shopify Forums</a></li>
+			<li><a href="http://apps.shopify.com/">Appstore</a></li>
+			<li><a href="http://api.shopify.com/">API Documentation</a></li>
+			<li><a onclick="pageTracker._setVar('Visit Developers');" href="http://www.shopify.com/developers">Shopify Developers</a></li>
+			<li><a href="http://www.shopify.com/partners/">Shopify Partner Program</a></li>
+		</ul>
+	</div>
+	
+	<div class="col-3">
+		<h3>Social</h3>
+		<ul>
+			<li><a onclick="pageTracker._setVar('Visit Blog');" href="http://blog.shopify.com">Shopify Blog</a></li>
+			<li><a href="http://www.twitter.com/shopify">Twitter</a></li>
+			<li><a href="http://www.facebook.com/pages/Shopify/20409006880">Facebook</a></li>
+			<li><a href="http://www.youtube.com/user/jadedpixel#play/uploads">YouTube</a></li>
+			<li><a href="http://www.flickr.com/photos/jadedpixel">Flickr</a></li>
+		</ul>
+	</div>
+	
+	<div class="col-3 last">
+		<h3>Shopify</h3>
+		<ul>
+			<li><a href="/about/">About Us</a></li>
+			<li><a href="/careers/">Careers</a></li>
+			<li><a target="_blank" href="http://checkout.shopify.com/legal/terms.html">Terms of Service</a></li>
+			<li><a target="_blank" href="http://checkout.shopify.com/legal/privacy.html">Privacy</a></li>
+		</ul>
+	</div>
+  
+    </div></div>
+</div>
+
+-->
+
+
+
+
+<div id="legal">
+    <div id="legal-wrapper">
+    © Copyright 2010 &nbsp; &nbsp; 
+    <A href="http://www.micajah.com/">Micajah IT Services, Inc.</A>
+    &nbsp; &nbsp; All rights reserved. &nbsp;&nbsp;&nbsp;&nbsp; 
+    </div>
+</div>
+
+
+
+<asp:SiteMapDataSource ID="SiteMapData" runat="server" ShowStartingNode="True" />
+</form></body></html>

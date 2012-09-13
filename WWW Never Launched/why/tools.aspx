@@ -1,0 +1,74 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="tools.aspx.cs" Inherits="web.micajah.www.why.process" %>
+<%@ Register src="~/Controls/Contact.ascx" tagname="Contact" tagprefix="uc1" %>
+<%@ Register src="~/Controls/GetStarted.ascx" tagname="GetStarted" tagprefix="uc1" %>
+<%@ Register src="~/Controls/LeftMenu.ascx" tagname="LeftMenu" tagprefix="uc1" %>
+<asp:Content ID="TopBand1" ContentPlaceHolderID="TopBand" runat="server">
+    Our form of a pocket protector.
+    <!--...committed to extracting inefficiency from the software development process..-->
+    <!-- .. specialized in offshore ASP.NET software development.. -->
+</asp:Content>
+<asp:Content ID="MainContent1" ContentPlaceHolderID="MainContent" runat="server">
+    
+    <!--<h2>Tools of the trade.</h2>-->
+    
+    <p>Here is break down of the tools we use on the day to day...</p>
+    <h2>Source Control.</h2>
+    <p>This one is important.&nbsp; The source control system is a repository and 
+        protector of the projects source code.&nbsp; It is critical in team development 
+        and should be used in any project.&nbsp; We use
+        <a href="http://msdn.microsoft.com/en-us/library/ms242904.aspx">Team Foundation 
+        Server</a> by Microsoft.&nbsp; This system is a central server to ensures all of 
+        your source code is safe, think of it as Microsoft Exchange server for software 
+        development.&nbsp;&nbsp; Software source code is just a bunch of text files, 
+        albiet, expensive text files.&nbsp; As the client, you should be concerned about the safe
+        keeping and access to these files.</p>
+    <h2>Screen Share</h2>
+    <p>Sometimes you need to look at the same thing at the same time. We mainly use 
+        GotoMeeting by Citrix.&nbsp; The latest version works great and supports many 
+        viewers at one time.&nbsp; Also for one on one we use
+        <a href="http://www.bigwebapps.com">bigWebApps Helpdesk Remote Desktop Control</a> 
+        to perform one on one live screen shares.</p>
+    <h2>Skype</h2>
+    <p>Skype is the goto application for voice communications.&nbsp; Most of our day to 
+        day quick communication is done via instant messenger.&nbsp; When we need to 
+        talk voice, we use skype with a good headset.</p>
+    <h2>Bug Tracking</h2>
+    <p>We use <a href="http://www.bigwebapps.com">bigWebApps HelpDesk for ticket 
+        tracking</a>.&nbsp; This tool is perfect for the job, very easy for anyone to 
+        submit change orders into the software development cycle.</p>
+    <h2>Screen Capture</h2>
+    <p>Snag-it by Techsmith is our goto for screen capture.&nbsp; It is a very simple 
+        tool to allow you to capture a screen, draw edits on this screen, and send them 
+        to the developers.&nbsp; It saves hundreds and hundreds of typed words.&nbsp; 
+        This tool does the heavy lifting for our development change orders and 
+        requirements.&nbsp; I could write an book on using this application for software 
+        development.&nbsp; It is non negotiable, all of our liasons must have this tool 
+        installed.</p>
+    <h2>Instant Messaging</h2>
+    <p>IM is the core of our communications for quick chats.&nbsp; I know everyone has 
+        an opinion on what client or network to use.&nbsp; We use MSN Messenger by 
+        Microsoft.&nbsp; We had to standardize on one, and MSN messenger is it, we hope 
+        this is not a problem, it is required for all project liasons.</p>
+    <h2>Micajah.Common Framework</h2>
+    <p>A proprietary framework developed by Micajah.&nbsp; It is a light weight UI layer 
+        that sits on top of Microsoft ASP.NET. This framework allows us to get a new 
+        application off the ground in days compared to weeks, and saves a non-calculable 
+        amount of hours for ongoing development. The framework handles many of the 
+        routine tasks each project must handle such as: Login/Logout, Add Users, Roles, 
+        Groups, Menus, User Profiles, Grids/Tables, Forms, Notices Areas.&nbsp;&nbsp; 
+        Not to toot our horn, but to toot our horn, this thing rocks.&nbsp; Soon we will 
+        be releasing it as an open source project with a dedicated website.</p>
+    
+
+</asp:Content>
+
+<asp:Content ID="SideBar1" ContentPlaceHolderID="SideBarHolder" runat="server">
+
+    
+    <uc1:LeftMenu ID="LeftMenu1" runat="server" />
+  
+    <!--<uc1:GetStarted ID="GetStartedControl" runat="server" />-->
+    
+    <uc1:Contact ID="ContactControl1" runat="server" />
+        
+</asp:Content>
