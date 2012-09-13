@@ -6,3 +6,11 @@ C:\VSWorkSpaces\Micajah.Backoffice\BackOffice\bin\Telerik.Web.UI.dll
 C:\VSWorkSpaces\Micajah.Backoffice\BackOffice\obj\Debug\ResolveAssemblyReference.cache
 C:\VSWorkSpaces\Micajah.Backoffice\BackOffice\obj\Debug\web.micajah.backoffice.dll
 C:\VSWorkSpaces\Micajah.Backoffice\BackOffice\obj\Debug\web.micajah.backoffice.pdb
+C:\Users\Jon\GitRepos\Micajah.WWW\BackOffice\bin\web.micajah.backoffice.dll
+C:\Users\Jon\GitRepos\Micajah.WWW\BackOffice\bin\web.micajah.backoffice.pdb
+C:\Users\Jon\GitRepos\Micajah.WWW\BackOffice\bin\Micajah.Common3.dll
+C:\Users\Jon\GitRepos\Micajah.WWW\BackOffice\bin\Micajah.FileService.dll
+C:\Users\Jon\GitRepos\Micajah.WWW\BackOffice\bin\Telerik.Web.UI.dll
+C:\Users\Jon\GitRepos\Micajah.WWW\BackOffice\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jon\GitRepos\Micajah.WWW\BackOffice\obj\Debug\web.micajah.backoffice.dll
+C:\Users\Jon\GitRepos\Micajah.WWW\BackOffice\obj\Debug\web.micajah.backoffice.pdb

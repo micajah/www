@@ -3,3 +3,8 @@ C:\VSWorkSpaces\Micajah.Backoffice\WWW Site\bin\web.micajah.www.pdb
 C:\VSWorkSpaces\Micajah.Backoffice\WWW Site\obj\Debug\ResolveAssemblyReference.cache
 C:\VSWorkSpaces\Micajah.Backoffice\WWW Site\obj\Debug\web.micajah.www.dll
 C:\VSWorkSpaces\Micajah.Backoffice\WWW Site\obj\Debug\web.micajah.www.pdb
+C:\Users\Jon\GitRepos\Micajah.WWW\WWW Never Launched\bin\web.micajah.www.dll
+C:\Users\Jon\GitRepos\Micajah.WWW\WWW Never Launched\bin\web.micajah.www.pdb
+C:\Users\Jon\GitRepos\Micajah.WWW\WWW Never Launched\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jon\GitRepos\Micajah.WWW\WWW Never Launched\obj\Debug\web.micajah.www.dll
+C:\Users\Jon\GitRepos\Micajah.WWW\WWW Never Launched\obj\Debug\web.micajah.www.pdb
