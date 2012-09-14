@@ -1,35 +1,36 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="WWW_Site_2.about" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="diffs.aspx.cs" Inherits="WWW_Site_2.aboutus.diffs" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
+
 <div class="container_12 main">
 
   <div class="grid_12 headline">
-  	<h1>Why choose us?<br />That's a good question.</h1>
+  	<h1>What's so great about us.</h1>
   </div>
 
 </div>
 
 <div class="container_12 sub-main">
     <div class="grid_8 content">
-        <h2>Specialized.</h2>
-            <p><strong>Micajah specializes in Microsoft.NET</strong><br />
-            While we have worked on many technologies over the years we are sticking with Microsoft .NET as the most well balanced platform. <a href="specialized.aspx">Read more.</a>
-            </p>   
-
-        <h2>Legal protection.</h2>
-        <p><strong>True Us Company</strong><br />
-        with offices in Atlanta, GA, our company is based in the United States.  This provides our clients with the type of legal and copyright laws for their software development project. </p>
-        
-        <h2>Process.</h2>
-        <p><strong>Human errors can cause havoc</strong><br />for software development.  Humans, although great for innovation, can wreak havoc in development cycles.  Micajah is relentlessly polishing our systems to drive costs down and errors out of the development process. <a href="specialized.aspx">Read more about processes.</a></p>     
-
+        <H2>Differentiators</H2>
+    
+    <P><strong>True US Company</strong><br />with offices in Atlanta, GA, our company is based in the United States.  This provides
+    our clients with the type of legal and copyright laws for their software development project. </P>
+    
+    <P><strong>Specialized in ASP.NET</strong><br />maintaining a core development speciality allows us to build system and process.  The processes
+    lead to higher code quality and more predictable results.  
+    </P>
+    
+    <P><strong>Eastern Europe</strong><br />
+    having more similar cultures with western work ethics, deep engineering roots, sophisticated engineering education systems, we have choosen to place four develoment centers in Lviv and Dninpropetrovsk Ukraine, St. Pete and Yoshkar Russian, and other Eastern Europe locations.
+    </P>
     </div>
     <div class="grid_4 sidebar">
         <ul class="sidebar-menu">
             <li><a href="../aboutus/tools.aspx">Tools</a></li>
-            <li><a href="../aboutus/diffs.aspx">Diffs</a></li>
+            <li class="current"><a href="../aboutus/diffs.aspx">Diffs</a></li>
             <li><a href="../aboutus/crap.aspx">Crap</a></li>
             <li><a href="../aboutus/strength.aspx">Strength</a></li>
             <li><a href="../aboutus/specialize.aspx">Specialize</a></li>
