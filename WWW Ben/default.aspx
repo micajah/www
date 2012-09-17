@@ -8,6 +8,7 @@
 
   <div class="grid_12 headline">
   	<h1>asp.net software developer.</h1>
+    <div id="subh1">ASP.NET &nbsp; | &nbsp; Azure &nbsp; | &nbsp; Sql Server &nbsp; | &nbsp; C#</div>
   </div>
 
 </div>

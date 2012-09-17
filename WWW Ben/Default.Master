@@ -12,8 +12,8 @@
 <link rel="stylesheet" type="text/css" href="css/text.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-    <asp:ContentPlaceHolder ID="head" runat="server">
-    </asp:ContentPlaceHolder>
+<asp:ContentPlaceHolder ID="head" runat="server">
+</asp:ContentPlaceHolder>
 
 </head>
 <body>
@@ -21,13 +21,14 @@
 
     <div class="container_12 header">
       <div class="grid_5 alpha logo">
-  	    <a href="../../default.aspx"><img src="../../img/Micajah-Logo.gif" alt="Micajah" /></a>
+  	    <a href="/"><img src="/img/Micajah-Logo.gif" alt="Micajah Logo" /></a>
       </div>
       <div class="grid_7 omega top-menu">
   	    <ul>
-  		    <li><a href="../../about.aspx">About Us</a></li>
-            <li><a href="../../toolbox.aspx">Toolbox</a></li>
-  		    <li><a href="../../contact.aspx">Contact Us</a></li>
+  		    <li><a href="/">Home</a></li>
+            <li><a href="/about.aspx">About Us</a></li>
+            <li><a href="/toolbox.aspx">Toolbox</a></li>
+  		    <li><a href="/contact.aspx">Contact Us</a></li>
   	    </ul>
       </div>
     </div> <!-- End Header -->

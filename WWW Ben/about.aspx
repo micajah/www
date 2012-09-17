@@ -6,7 +6,7 @@
 <div class="container_12 main">
 
   <div class="grid_12 headline">
-  	<h1>Why choose us?<br />That's a good question.</h1>
+  	<h1>Why choose us?</h1>
   </div>
 
 </div>

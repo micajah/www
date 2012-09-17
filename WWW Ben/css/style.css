@@ -66,6 +66,13 @@ p {
 		font-size: 4em;
 		margin: 30px 0;
 		}
+	.main .headline #subh1 {
+	    color: #555555;
+	    font-size: 18px;
+	    margin-top:-30px;
+	}	
+		
+		
 .sub-main {
 	min-height: 100px;
 	padding: 20px 0;
