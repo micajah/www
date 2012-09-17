@@ -10,7 +10,10 @@ body {
     font-size: 14px;
 }
 
-h2 {color: #AD141E;}
+h2 {
+color: #AD141E;
+font-weight: normal;
+}
 
 .hire-us h2 {color: #ffffff;}
 .home-descr h2 {color: #000;}
@@ -64,12 +67,11 @@ p {
 		}
 	.main .headline h1 {
 		font-size: 4em;
-		margin: 30px 0;
+		margin: 0 0;
 		}
 	.main .headline #subh1 {
 	    color: #555555;
 	    font-size: 18px;
-	    margin-top:-30px;
 	}	
 		
 		
@@ -222,8 +224,8 @@ select
 .toolbox {margin-bottom: 50px;}
 .toolbox h2 
 {
-    margin: 0;
-    }	
+    margin: 30px 0 0 0;
+}	
     .toolbox a 
     {
         font-weight: bold;

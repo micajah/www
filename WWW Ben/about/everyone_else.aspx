@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="everyone_else.aspx.cs" Inherits="WWW_Site_2.aboutus.everyone_else" %>
+<%@ Register src="RightMenu.ascx" tagname="RightMenu" tagprefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -29,17 +30,7 @@
 <p><b>Meet the parents :)</b> Figure the rest out later.</p>
     </div>
     <div class="grid_4 sidebar">
-        <ul class="sidebar-menu">
-            <li><a href="../aboutus/tools.aspx">Tools</a></li>
-            <li><a href="../aboutus/diffs.aspx">Diffs</a></li>
-            <li><a href="../aboutus/crap.aspx">Crap</a></li>
-            <li><a href="../aboutus/strength.aspx">Strength</a></li>
-            <li><a href="../aboutus/specialize.aspx">Specialize</a></li>
-            <li class="current"><a href="../aboutus/everyone_else.aspx">Everyone Else</a></li>
-            <li><a href="../aboutus/risk_mitigation.aspx">Risk Mitigation</a></li>
-            <li><a href="../aboutus/costs.aspx">Costs</a></li>
-            <li class="gohome"><a href="../">< Home</a></li>
-        </ul>
+        <uc1:RightMenu ID="RightMenu1" runat="server" />
     </div>
     <div class="grid_12 hire-us">
         <a href="contact.aspx">

@@ -8,3 +8,8 @@ C:\Users\Ben\gitrepos\micajah-git\www\WWW Ben\bin\WWW Site 2.pdb
 C:\Users\Ben\gitrepos\micajah-git\www\WWW Ben\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Ben\gitrepos\micajah-git\www\WWW Ben\obj\Debug\WWW Site 2.dll
 C:\Users\Ben\gitrepos\micajah-git\www\WWW Ben\obj\Debug\WWW Site 2.pdb
+C:\Users\Jon\GITRepos\www\WWW Ben\bin\WWW Site 2.dll
+C:\Users\Jon\GITRepos\www\WWW Ben\bin\WWW Site 2.pdb
+C:\Users\Jon\GITRepos\www\WWW Ben\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Jon\GITRepos\www\WWW Ben\obj\Debug\WWW Site 2.dll
+C:\Users\Jon\GITRepos\www\WWW Ben\obj\Debug\WWW Site 2.pdb

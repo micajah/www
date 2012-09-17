@@ -11,7 +11,7 @@ namespace WWW_Site_2.aboutus
 {
 
 
-    public partial class everyone_else
+    public partial class RightMenu
     {
     }
 }

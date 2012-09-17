@@ -60,14 +60,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.aspx" />
-    <Content Include="aboutus\costs.aspx" />
-    <Content Include="aboutus\crap.aspx" />
-    <Content Include="aboutus\diffs.aspx" />
-    <Content Include="aboutus\everyone_else.aspx" />
-    <Content Include="aboutus\risk_mitigation.aspx" />
-    <Content Include="aboutus\specialize.aspx" />
-    <Content Include="aboutus\strength.aspx" />
-    <Content Include="aboutus\tools.aspx" />
+    <Content Include="about\costs.aspx" />
+    <Content Include="about\crap.aspx" />
+    <Content Include="about\diffs.aspx" />
+    <Content Include="about\everyone_else.aspx" />
+    <Content Include="about\RightMenu.ascx" />
+    <Content Include="about\risk_mitigation.aspx" />
+    <Content Include="about\specialize.aspx" />
+    <Content Include="about\strength.aspx" />
+    <Content Include="about\tools.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="css\960.css" />
     <Content Include="css\reset.css" />
@@ -99,8 +100,6 @@
     <Content Include="img\shadowing.png" />
     <Content Include="Portfolio\helpdesk.aspx" />
     <Content Include="Portfolio\sanus.aspx" />
-    <Content Include="services.aspx" />
-    <Content Include="specialized.aspx" />
     <Content Include="toolbox.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -118,60 +117,67 @@
     <Compile Include="about.aspx.designer.cs">
       <DependentUpon>about.aspx</DependentUpon>
     </Compile>
-    <Compile Include="aboutus\costs.aspx.cs">
+    <Compile Include="about\costs.aspx.cs">
       <DependentUpon>costs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="aboutus\costs.aspx.designer.cs">
+    <Compile Include="about\costs.aspx.designer.cs">
       <DependentUpon>costs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="aboutus\crap.aspx.cs">
+    <Compile Include="about\crap.aspx.cs">
       <DependentUpon>crap.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="aboutus\crap.aspx.designer.cs">
+    <Compile Include="about\crap.aspx.designer.cs">
       <DependentUpon>crap.aspx</DependentUpon>
     </Compile>
-    <Compile Include="aboutus\diffs.aspx.cs">
+    <Compile Include="about\diffs.aspx.cs">
       <DependentUpon>diffs.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="aboutus\diffs.aspx.designer.cs">
+    <Compile Include="about\diffs.aspx.designer.cs">
       <DependentUpon>diffs.aspx</DependentUpon>
     </Compile>
-    <Compile Include="aboutus\everyone_else.aspx.cs">
+    <Compile Include="about\everyone_else.aspx.cs">
       <DependentUpon>everyone_else.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="aboutus\everyone_else.aspx.designer.cs">
+    <Compile Include="about\everyone_else.aspx.designer.cs">
       <DependentUpon>everyone_else.aspx</DependentUpon>
     </Compile>
-    <Compile Include="aboutus\risk_mitigation.aspx.cs">
+    <Compile Include="about\RightMenu.ascx.cs">
+      <DependentUpon>RightMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about\RightMenu.ascx.designer.cs">
+      <DependentUpon>RightMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="about\risk_mitigation.aspx.cs">
       <DependentUpon>risk_mitigation.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="aboutus\risk_mitigation.aspx.designer.cs">
+    <Compile Include="about\risk_mitigation.aspx.designer.cs">
       <DependentUpon>risk_mitigation.aspx</DependentUpon>
     </Compile>
-    <Compile Include="aboutus\specialize.aspx.cs">
+    <Compile Include="about\specialize.aspx.cs">
       <DependentUpon>specialize.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="aboutus\specialize.aspx.designer.cs">
+    <Compile Include="about\specialize.aspx.designer.cs">
       <DependentUpon>specialize.aspx</DependentUpon>
     </Compile>
-    <Compile Include="aboutus\strength.aspx.cs">
+    <Compile Include="about\strength.aspx.cs">
       <DependentUpon>strength.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="aboutus\strength.aspx.designer.cs">
+    <Compile Include="about\strength.aspx.designer.cs">
       <DependentUpon>strength.aspx</DependentUpon>
     </Compile>
-    <Compile Include="aboutus\tools.aspx.cs">
+    <Compile Include="about\tools.aspx.cs">
       <DependentUpon>tools.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="aboutus\tools.aspx.designer.cs">
+    <Compile Include="about\tools.aspx.designer.cs">
       <DependentUpon>tools.aspx</DependentUpon>
     </Compile>
     <Compile Include="contact.aspx.cs">
@@ -204,20 +210,6 @@
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="services.aspx.cs">
-      <DependentUpon>services.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="services.aspx.designer.cs">
-      <DependentUpon>services.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="specialized.aspx.cs">
-      <DependentUpon>specialized.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="specialized.aspx.designer.cs">
-      <DependentUpon>specialized.aspx</DependentUpon>
-    </Compile>
     <Compile Include="toolbox.aspx.cs">
       <DependentUpon>toolbox.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

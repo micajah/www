@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="WWW_Site_2.about" %>
+<%@ Register src="about/RightMenu.ascx" tagname="RightMenu" tagprefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -15,7 +16,7 @@
     <div class="grid_8 content">
         <h2>Specialized.</h2>
             <p><strong>Micajah specializes in Microsoft.NET</strong><br />
-            While we have worked on many technologies over the years we are sticking with Microsoft .NET as the most well balanced platform. <a href="specialized.aspx">Read more.</a>
+            While we have worked on many technologies over the years we are sticking with Microsoft .NET as the most well balanced platform. <a href="about/specialize.aspx">Read more.</a>
             </p>   
 
         <h2>Legal protection.</h2>
@@ -23,21 +24,11 @@
         with offices in Atlanta, GA, our company is based in the United States.  This provides our clients with the type of legal and copyright laws for their software development project. </p>
         
         <h2>Process.</h2>
-        <p><strong>Human errors can cause havoc</strong><br />for software development.  Humans, although great for innovation, can wreak havoc in development cycles.  Micajah is relentlessly polishing our systems to drive costs down and errors out of the development process. <a href="specialized.aspx">Read more about processes.</a></p>     
+        <p><strong>Human errors can cause havoc</strong><br />for software development.  Humans, although great for innovation, can wreak havoc in development cycles.  Micajah is relentlessly polishing our systems to drive costs down and errors out of the development process.</p>     
 
     </div>
     <div class="grid_4 sidebar">
-        <ul class="sidebar-menu">
-            <li><a href="../aboutus/tools.aspx">Tools</a></li>
-            <li><a href="../aboutus/diffs.aspx">Diffs</a></li>
-            <li><a href="../aboutus/crap.aspx">Crap</a></li>
-            <li><a href="../aboutus/strength.aspx">Strength</a></li>
-            <li><a href="../aboutus/specialize.aspx">Specialize</a></li>
-            <li><a href="../aboutus/everyone_else.aspx">Everyone Else</a></li>
-            <li><a href="../aboutus/risk_mitigation.aspx">Risk Mitigation</a></li>
-            <li><a href="../aboutus/costs.aspx">Costs</a></li>
-            <li class="gohome"><a href="../">< Home</a></li>
-        </ul>
+        <uc1:RightMenu ID="RightMenu1" runat="server" />
     </div>
     <div class="grid_12 hire-us">
         <a href="contact.aspx">

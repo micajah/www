@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WWW_Site_2 {
+namespace WWW_Site_2.aboutus {
     
     
-    public partial class about {
+    public partial class tools {
         
         /// <summary>
         /// RightMenu1 control.

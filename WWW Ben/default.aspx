@@ -24,15 +24,17 @@
 	    <div class="grid_12 home-descr">
 		    <div class="grid_4 alpha">
 		    	<h2>A True U.S. Company</h2>
-		        <p>our company is based in Atlanta, GA in the United States. This provides our clients with the type of legal and copyright protection for sensitive software development project.</p>
+		        <p>our company is based in Atlanta, GA, providing our clients with true legal and copyright protection for sensitive software development projects.</p>
 		    </div>
 		    <div class="grid_4">
 		    	<h2>Specialized in ASP.NET</h2>
-		        <p>maintaining a core development speciality allows us to refine our process, providing high code quality and predictable results.</p>
+		        <p>Being specialized in Azure and ASP.NET as a core development speciality allows us to refine our processes 
+                    and provide high quality code.</p>
 		    </div>
 	        <div class="grid_4 omega">
 		    	<h2>Eastern Europe</h2>
-		        <p>having more similar cultures with western work ethics and deep engineering roots, we have choosen to place four develoment centers in Lviv and Dninpropetrovsk Ukraine, St. Pete and Yoshkar Russia.</p>
+		        <p>with similar cultures, great work ethics, and deep engineering roots, we have 
+                    three develoment centers in Lviv Ukraine, Dninpropetrovsk Ukraine, and Yoshkar Russia.</p>
 		    </div>            
 	    </div>
         <a href="contact.aspx">
