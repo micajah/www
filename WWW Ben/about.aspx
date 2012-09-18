@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="WWW_Site_2.about" %>
+﻿<%@ Page Title="Micajah - About Us - Atlanta .NET Developer" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="WWW_Site_2.about" %>
 <%@ Register src="about/RightMenu.ascx" tagname="RightMenu" tagprefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

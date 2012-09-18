@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="toolbox.aspx.cs" Inherits="WWW_Site_2.toolbox" %>
+﻿<%@ Page Title="Micajah - Toolbox - Atlanta C# ASP.NET Developer" Language="C#" MasterPageFile="~/Default.Master" AutoEventWireup="true" CodeBehind="toolbox.aspx.cs" Inherits="WWW_Site_2.toolbox" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
