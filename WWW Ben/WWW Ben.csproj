@@ -85,6 +85,12 @@
     <Content Include="Portfolio\helpdesk-img\hd3.png" />
     <Content Include="Portfolio\helpdesk-img\hd4.png" />
     <Content Include="Portfolio\helpdesk-img\helpdesk-large.png" />
+    <Content Include="Portfolio\helpdesk-img\HelpDesk1.png" />
+    <Content Include="Portfolio\helpdesk-img\HelpDesk2.png" />
+    <Content Include="Portfolio\helpdesk-img\HelpDesk3.png" />
+    <Content Include="Portfolio\helpdesk-img\HelpDesk4.png" />
+    <Content Include="Portfolio\helpdesk-img\HelpDesk5.png" />
+    <Content Include="Portfolio\helpdesk-img\HelpDesk6.png" />
     <Content Include="Portfolio\helpdesk-img\originals\HelpDesk1.png" />
     <Content Include="Portfolio\helpdesk-img\originals\HelpDesk2.png" />
     <Content Include="Portfolio\helpdesk-img\originals\HelpDesk3.png" />
