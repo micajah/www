@@ -45,6 +45,7 @@ local.properties
 [Dd]ebug/
 [Rr]elease/
 *\[Oo]bj\
+*/obj/*
 *_i.c
 *_p.c
 *.ilk
