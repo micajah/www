@@ -81,7 +81,7 @@
 
     <div class="grid_4 push_1 omega">
         <div class="side-section">
-            <div class="sidebar-label">Phone</div>
+            <div class="sidebar-label">Phone Jon @</div>
             <div class="sidebar"><p>(404) 432-9922</p></div>
         </div>
         <div class="side-section">
