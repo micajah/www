@@ -15,10 +15,10 @@
 <div class="main-wrap">
 	<div class="container_12 sub-main">
 		<div class="grid_6 alpha portfolio">
-	    	<a href="Portfolio/helpdesk.aspx"><img src="img/sample1.png"></a>
+	    	<a href="Portfolio/helpdesk.aspx"><img src="portfolio/helpdesk-img/hd-small.jpg"></a>
 	    </div>
 	    <div class="grid_6 omega portfolio">
-            <a href="Portfolio/sanus.aspx"><img src="img/portfolio/sanus/Sanus1-small.jpg" /></a>
+            <a href="Portfolio/sanus.aspx"><img src="portfolio/sanus-img/Sanus1-small.jpg" /></a>
 	    </div>
 
 	    <div class="grid_12 home-descr">
