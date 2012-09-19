@@ -155,7 +155,7 @@ p {
 }
 .sidebar-menu li a {
 	padding: 0;
-	font-size: 16px;
+	font-size: 18px;
 	COLOR: #222; 
 	border: none;
 }
@@ -222,9 +222,9 @@ select
 	        }
 
 .toolbox {margin-bottom: 50px;}
-.toolbox h2 
-{
-    margin: 30px 0 0 0;
+
+.toolbox h2 {
+    margin: 35px 0 5px 0;
 }	
     .toolbox a 
     {

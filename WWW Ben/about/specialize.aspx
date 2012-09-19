@@ -38,18 +38,7 @@
     <div class="grid_4 sidebar">
         <uc1:RightMenu ID="RightMenu1" runat="server" />
     </div>
-    <div class="grid_12 hire-us">
-        <a href="contact.aspx">
-            <div class="grid_5 alpha">
-                <h2>Interested in Hiring Micajah?</h2>
-            </div>
-            <div class="grid_7 omega">
-                <div class="contact-button">
-                    <h2>Click Here or Call Us +1 404 432-9922</h2>
-                </div>
-            </div>
-        </a>
-    </div>
+    
 </div>
 
 </asp:Content>

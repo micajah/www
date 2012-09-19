@@ -37,18 +37,7 @@
                     three develoment centers in Lviv Ukraine, Dninpropetrovsk Ukraine, and Yoshkar Russia.</p>
 		    </div>            
 	    </div>
-        <a href="contact.aspx">
-        <div class="grid_12 hire-us">
-        	<div class="grid_5 alpha">
-            	<h2>Interested in Hiring Micajah?</h2>
-            </div>
-            <div class="grid_7 omega">
-                <div class="contact-button">
-                    <h2>Click Here or Call Us +1 404 432-9922</h2>
-                </div>
-            </div>
-        </div>
-        </a>
+        
 	</div>
 </div>
 

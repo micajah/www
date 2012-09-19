@@ -51,11 +51,30 @@
         </asp:ContentPlaceHolder>
     </div>
 
+    <div class="main-wrap">
+	<div class="container_12 sub-main">
+    <a href="contact.aspx">
+        <div class="grid_12 hire-us">
+        	<div class="grid_5 alpha">
+            	<h2>Interested in Hiring Micajah?</h2>
+            </div>
+            <div class="grid_7 omega">
+                <div class="contact-button">
+                    <h2>Click or Call Jon @ +1 404 432-9922</h2>
+                </div>
+            </div>
+        </div>
+        </a>
+    </div></div>
+
+    <!--Disable Footer JV
     <div class="footer-wrap">
 	    <div class="container_12 footer">
 	        <div class="footer-center">sales@micajah.com | 1447 Peachtree St Ste 880 Atlanta, Georgia 30309</div>
 	    </div>
     </div>
+    -->
+
     </form>
 </body>
 </html>

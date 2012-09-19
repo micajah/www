@@ -7,7 +7,7 @@
 <div class="container_12 main">
 
   <div class="grid_12 headline">
-  	<h1>Why choose us?</h1>
+  	<h1>Why choose Mi-kay-jah?</h1>
   </div>
 
 </div>
@@ -23,25 +23,11 @@
         <p><strong>True Us Company</strong><br />
         with offices in Atlanta, GA, our company is based in the United States.  This provides our clients with the type of legal and copyright laws for their software development project. </p>
         
-        <h2>Process.</h2>
-        <p><strong>Human errors can cause havoc</strong><br />for software development.  Humans, although great for innovation, can wreak havoc in development cycles.  Micajah is relentlessly polishing our systems to drive costs down and errors out of the development process.</p>     
-
     </div>
     <div class="grid_4 sidebar">
         <uc1:RightMenu ID="RightMenu1" runat="server" />
     </div>
-    <div class="grid_12 hire-us">
-        <a href="contact.aspx">
-            <div class="grid_5 alpha">
-                <h2>Interested in Hiring Micajah?</h2>
-            </div>
-            <div class="grid_7 omega">
-                <div class="contact-button">
-                    <h2>Click Here or Call Us +1 404 432-9922</h2>
-                </div>
-            </div>
-        </a>
-    </div>
+    
 </div>
 
 </asp:Content>
