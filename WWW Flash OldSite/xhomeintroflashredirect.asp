@@ -1,0 +1,4 @@
+<%
+Response.Redirect "home.aspx"
+
+%>

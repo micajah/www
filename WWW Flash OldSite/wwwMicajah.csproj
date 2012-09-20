@@ -1,0 +1,812 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Web"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{7D0D5A5C-7A35-4731-807F-95468D7EFC45}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Micajah_www"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "Micajah.WWW"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.Services.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "500-100.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "contact.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "contact.aspx.cs"
+                    DependentUpon = "contact.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "contact.aspx.resx"
+                    DependentUpon = "contact.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "custdev.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    SubType = "Component"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.cs"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "global.css"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "home.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "home.aspx.cs"
+                    DependentUpon = "home.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "home.aspx.resx"
+                    DependentUpon = "home.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "introplay.htm"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "wwwMicajah.vsdisco"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "xcustomdevelopmentredirect.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "xhomeintroflashredirect.asp"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "classes\url.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clienttools\default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clienttools\default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "clienttools\exchange\manageusers\Exchange_Admin_Manage_UsersGroups.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\manageusers\Exchange_Admin_Manage_UsersGroups_viewlet_swf.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\manageusers\manifest.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\setup\Exchange_Admin_Installation.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\setup\Exchange_Admin_Installation_viewlet_swf.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\setup\manifest.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0005.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0006.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0007.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0008.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0009.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0010.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0011.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0012.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0013.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0014.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\exchange\splitdomain\SNAG-0015.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_autoresponder.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_autoresponder_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_database.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_database_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_domain.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_domain_alias.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_domain_alias_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_domain_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_forwarder.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_forwarder_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_ftp.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_ftp_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_mra.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_mra_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_pop3.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_pop3_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_subdomain.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_add_subdomain_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_dns_editor.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_dns_editor_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_extra_features.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_extra_features_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_file_manager.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_file_manager_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_getting_started.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_getting_started_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_helm_billing.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_helm_billing_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_install_frontpage.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_install_frontpage_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_install_phpbb2.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_install_phpbb2_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_install_ssl.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_install_ssl_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_installing_awstats.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_installing_awstats_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_installing_smarterstats.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_installing_smarterstats_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_odbc_dsn.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_odbc_dsn_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_password_personal.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_password_personal_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_resource_stats.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_resource_stats_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_secure_folders.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_secure_folders_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_set_catchall.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_set_catchall_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_set_custom_error.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\hcs_set_custom_error_noframe.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\index.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_add_autoresponder.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_add_database.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_add_domain.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_add_domain_alias.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_add_forwarder.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_add_ftp.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_add_mra.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_add_pop3.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_add_subdomain.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_dns_editor.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_extra_features.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_file_manager.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_getting_started.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_helm_billing.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_install_frontpage.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_install_phpbb2.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_install_ssl.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_installing_awstats.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_installing_smarterstats.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_odbc_dsn.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_password_personal.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_resource_stats.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_secure_folders.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_set_catchall.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\flash_files\hcs_set_custom_error.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\corner_left_bottom.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\corner_left_bottomK.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\corner_right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\corner_right_bottom.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\corner_right_bottomK.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\horizontal_slice.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\horizontal_slice_bottom.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\logo_bottom.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\logo_top.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\shadow.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\shadow_left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\shadow_right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\tutorial_icon.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\vertical_slice_left.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\hosting\flashtutorials\html_images\vertical_slice_right.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\snagit\manifest.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\snagit\test.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "clienttools\snagit\test_viewlet_swf.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "flash\custdev.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "flash\intro.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\bigWebApps_65px.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\bigwebdeskmain.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\custdev2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\getacro.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\leased2.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\micajah4.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\micajah5.jpg"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\map\mqmapgend.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\map\vssver.scc"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "includes\footer.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "includes\footer.ascx.cs"
+                    DependentUpon = "footer.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "includes\footer.ascx.resx"
+                    DependentUpon = "footer.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "includes\header.ascx"
+                    SubType = "UserControl"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "includes\header.ascx.cs"
+                    DependentUpon = "header.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "includes\header.ascx.resx"
+                    DependentUpon = "header.ascx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "leasedapps\default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "leasedapps\default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "leasedapps\default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "talent\default.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "talent\default.aspx.cs"
+                    DependentUpon = "default.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "talent\default.aspx.resx"
+                    DependentUpon = "default.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "talent\graphicartist.aspx"
+                    SubType = "Form"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "talent\graphicartist.aspx.cs"
+                    DependentUpon = "graphicartist.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "talent\graphicartist.aspx.resx"
+                    DependentUpon = "graphicartist.aspx.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <Folder RelPath = "Test\" />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,49 @@
+BODY { 
+	font-family: verdana;
+	color: white;
+	background-color: black;
+	
+}
+A {
+	color: #cccccc;
+}
+A:visited {
+	color: #cccccc;
+}
+A:hover {
+	color: white;
+}
+.LargeLink 
+{
+	font-size: 11pt;
+}
+TABLE {
+	font-size: 10pt;
+}
+.subhead 
+{
+	font-size: 10pt;
+	font-weight: bold;
+	color: #ffff64;
+}
+.text1 {
+	font-size: 10pt;
+	font-weight: bold;
+	color: white;
+}
+.text2 {
+	font-size: 9pt;
+}
+.text3 {
+	font-size: 12pt;
+	font-weight: bold;
+}
+.text4 {
+	color: blue;
+}
+
+colors:
+#999999 - dark gray
+#cccccc - light gray
+
+	
