@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/default.aspx" title="Micajah - Atlanta .NET Azure Software Developer"  description="15+ years experience. Onshore $45/hr Offshore @ 25/hr. Satisfaction Guarantee.">
+      <siteMapNode url="~/Portfolio/helpdesk.aspx" title="Micajah - HelpDesk Portfolio"  description="Micajah Portfolio Project - bigWebApps HelpDesk.  15+ years experience. ASP.NET Azure C#" />
+      <siteMapNode url="~/Portfolio/sanus.aspx" title="Micajah - Medical Portfolio"  description="Internal medicine practice management applicaton. Developed for Sanus Medical.  ASP.NET Azure C#" />
+      <siteMapNode url="~/contact.aspx" title="Micajah - Contact Us" description="Contact Jon @ jon.vickers@micajah.com." />
+      <siteMapNode url="~/toolbox.aspx" title="Micajah - Tools | Atlanta .NET Developer" description="Some tools for clients to use during Micajah projects. ASP.NET Azure C#" />
+      <siteMapNode url="~/about.aspx" title="Micajah - About | Atlanta .Net Developer"  description="15+ years experience.  Onshore starting @ $45/hr Offshore @ $25/hr.  ASP.NET Azure C#" />
+      <siteMapNode url="~/about/tools.aspx" title="Micajah - Tools We Use | Atlanta .Net Developer"  />
+      <siteMapNode url="~/about/diffs.aspx" title="Micajah - Key Differentiators | Atlanta .NET Developer" />
+      <siteMapNode url="~/about/strength.aspx" title="Micajah - Strengths | Atlanta .NET Developer" />
+      <siteMapNode url="~/about/specialize.aspx" title="Micajah - Speciality | Atlanta Azure Developer" />
+      <siteMapNode url="~/about/everyone_else.aspx" title="Micajah - Everyone Else | Atlanta ASP.NET Developer" />
+      <siteMapNode url="~/about/risk_mitigation.aspx" title="Micajah - How to manage development contract risks | Atlanta .NET Developer" />
+      <siteMapNode url="~/about/costs.aspx" title="Micajah - How to control development costs | Atlanta .NET Developer" />
+      
+      
+
+    </siteMapNode>
+</siteMap>

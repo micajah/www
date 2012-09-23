@@ -7,7 +7,7 @@
     <li><a href="/about/specialize.aspx">Specialize</a></li>
     <li><a href="/about/everyone_else.aspx">Everyone Else</a></li>
     <li><a href="/about/risk_mitigation.aspx">Risk Mitigation</a></li>
-    <li><a href="/about/costs.aspx">Costs</a></li>
+    <li><a href="/about/costs.aspx">Cost Control</a></li>
     <!--<li class="gohome"><a href="/">< Home</a></li>-->
 </ul>
 

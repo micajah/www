@@ -69,6 +69,10 @@
     <Content Include="about\specialize.aspx" />
     <Content Include="about\strength.aspx" />
     <Content Include="about\tools.aspx" />
+    <Content Include="bin\Newtonsoft.Sitemaps.dll" />
+    <Content Include="bin\Newtonsoft.Sitemaps.pdb" />
+    <Content Include="bin\WWW Site 2.dll" />
+    <Content Include="bin\WWW Site 2.pdb" />
     <Content Include="contact.aspx" />
     <Content Include="css\960.css" />
     <Content Include="css\reset.css" />
@@ -235,6 +239,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="js\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
